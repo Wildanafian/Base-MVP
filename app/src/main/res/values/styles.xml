@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:homeAsUpIndicator">@drawable/ic_back_button</item>-->
+        <item name="android:textColor">@color/blue_border</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+        <item name="android:typeface">normal</item>
+        <item name="listPreferredItemHeightSmall">32dp</item>
+    </style>
+
+    <style name="Pop">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+<!--        <item name="android:background">@drawable/ic_border_black_r8</item>-->
+<!--        <item name="android:dropDownSelector">@drawable/ic_down_arrow</item>-->
+    </style>
+
+    <style name="dropSpinner" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/ts_light</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">@dimen/ts_body</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+        <item name="colorAccent">@color/blue_border</item>
+        <item name="android:editTextColor">@color/blue_border</item>
+        <item name="android:textColorHint">@color/blue_border</item>
+    </style>
+
+    <style name="regular_light">
+        <item name="android:textSize">@dimen/ts_light</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="regular_body">
+        <item name="android:textSize">@dimen/ts_body</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="regular_subtitle">
+        <item name="android:textSize">@dimen/ts_subtitle</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+    </style>
+
+    <style name="regular_title">
+        <item name="android:textSize">@dimen/ts_title</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+    </style>
+
+    <style name="regular_subhead">
+        <item name="android:textSize">@dimen/ts_subhead</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+    </style>
+
+    <style name="regular_head">
+        <item name="android:textSize">@dimen/ts_head</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui</item>-->
+    </style>
+
+    <style name="semibold_body">
+        <item name="android:textSize">@dimen/ts_body</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_semibold</item>-->
+    </style>
+
+    <style name="semibold_subtitle">
+        <item name="android:textSize">@dimen/ts_subtitle</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_semibold</item>-->
+    </style>
+
+    <style name="semibold_title">
+        <item name="android:textSize">@dimen/ts_title</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_semibold</item>-->
+    </style>
+
+    <style name="semibold_subhead">
+        <item name="android:textSize">@dimen/ts_subhead</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_semibold</item>-->
+    </style>
+
+    <style name="semibold_head">
+        <item name="android:textSize">@dimen/ts_head</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_semibold</item>-->
+    </style>
+
+    <style name="bold_body">
+        <item name="android:textSize">@dimen/ts_body</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_bold</item>-->
+    </style>
+
+    <style name="bold_subtitle">
+        <item name="android:textSize">@dimen/ts_subtitle</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_bold</item>-->
+    </style>
+
+    <style name="bold_title">
+        <item name="android:textSize">@dimen/ts_title</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_bold</item>-->
+    </style>
+
+    <style name="bold_subhead">
+        <item name="android:textSize">@dimen/ts_subhead</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_bold</item>-->
+    </style>
+
+    <style name="bold_head">
+        <item name="android:textSize">@dimen/ts_head</item>
+<!--        <item name="android:fontFamily" tools:ignore="NewApi">@font/segoe_ui_bold</item>-->
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="AppBottomSheetDialogTheme" />
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+<!--        <item name="android:background">@drawable/ic_rounded_background_light_gray2</item>-->
+        <item name="behavior_peekHeight">600dp</item>
+        <item name="behavior_hideable">true</item>
+    </style>
+</resources>

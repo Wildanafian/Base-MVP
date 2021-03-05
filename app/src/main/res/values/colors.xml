@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42B3FF</color>
+    <color name="colorPrimaryDark">#207CB9</color>
+    <color name="colorAccent">#9FF1FB</color>
+
+    <color name="black">#000</color>
+    <color name="black_text">#646464</color>
+    <color name="white">#ffffff</color>
+<!--    <color name="holo_blue">#9FF1FB</color>-->
+<!--    <color name="holo_blue_light">#42B3FF</color>-->
+    <color name="selected_item">#CFECFF</color>
+    <color name="yellow">#FFBD1E</color>
+    <color name="yellow_light">#FFF8E3</color>
+    <color name="orange">#F19920</color>
+    <color name="purple">#EA62FF</color>
+    <color name="green_text">#00A018</color>
+    <color name="green_light">#B3F4BD</color>
+    <color name="red">#FF6C6C</color>
+    <color name="blue_border">#3C6687</color>
+    <color name="blue_line">#CFECFF</color>
+    <color name="gray_button">#DCDCDC</color>
+    <color name="gray_text">#aeaeae</color>
+    <color name="dark_gray_text">#8F8F8F</color>
+    <color name="light_gray">#F4F4F4</color>
+    <color name="green">#68f25f</color>
+    
+    <drawable name="blueAccent">#CFECFF</drawable>
+    <drawable name="whiteA">#ffffff</drawable>
+
+    <drawable name="bluePrimary">#42B3FF</drawable>
+    <drawable name="blueDark">#3C6687</drawable>
+</resources>
